@@ -2,11 +2,11 @@ $(function(){
 	$("#message").text("Đang tải dữ liệu, vui lòng đợi trong giây lát");
 	if (hasInternets()){
 		$("#webmobile").show();
-		$("#offline").hide();
+		$("#message").hide();
 	}else{
 		$("#webmobile").hide();
-		$("#offline").text("Vui lòng kết nối mạng, hoặc server đang bảo trì");
-		$("#offline").show();
+		$("#message").text("Vui lòng kết nối mạng, hoặc server đang bảo trì");
+		$("#message").show();
 	}
 });
 function hasInternets() {
