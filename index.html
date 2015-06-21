@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>haivainoi.com</title>
+	<icon src="img/icon.png" />
 	<style>
 	body{
 		margin:0;
@@ -23,18 +24,17 @@
 		z-index:999999;
 		display:none;
 	}
-	#offline{
+	#message{
 		position: fixed;
 		top:50%;
 		text-align:center;
 		width:100%;
-		display:none;
 	}
 	</style>
 </head>
 <body>
 <iframe id="webmobile"  src="http://m.haivainoi.com?device=app" frameborder="0"></iframe>
-<div id="offline">Vui lòng kết nối mạng, hoặc server đang bảo trì</div>
+<div id="message"></div>
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </body>
