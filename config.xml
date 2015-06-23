@@ -18,8 +18,6 @@
     </author>
 
     <preference name="fullscreen" value="true" />
-    
-    <preference name="LoadUrlTimeoutValue" value="30000"/>
 
     <preference name="SplashScreenDelay" value="0"/>
 
@@ -29,6 +27,7 @@
     <gap:platform name="android" />
     <gap:platform name="winphone" />
     
+     <access origin="*"  subdomains="true"/>
 
 
 </widget>
