@@ -27,7 +27,7 @@
     <gap:platform name="android" />
     <gap:platform name="winphone" />
     
-     <access origin="*"  subdomains="true"/>
+     <access origin="http://m.haivainoi.com"  subdomains="true"/>
 
 
 </widget>
